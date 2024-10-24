@@ -4,10 +4,43 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+		.maincontainer{
+			border: 4px solid black;
+			background-color: lightgray;
+			text-align: center;
+			width: 600px;
+			height: 300px;
+			border-radius: 10%;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		.colors{
+			height:200px;
+			width: 150px;
+			border-radius: 50%;
+			margin: auto;	
+		}
+		#red{
+			background-color: red;
+		}
+		#green{
+			background-color: green;
+		}
+		#yellow{
+			background-color: yellow;
+		}
+	</style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<div class="maincontainer">
+		<div class="colors"id="green"></div>
+		<div class="colors" id="yellow"></div>
+		<div class="colors" id="red"></div>
+	</div>
     <script type="text/javascript" src="./script.js">
 </script>
 
